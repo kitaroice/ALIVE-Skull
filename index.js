@@ -19,7 +19,7 @@ const queue = new Map();
 bot.on("warn", console.warn);
 bot.on("error", console.error);
 bot.on("ready", () => {console.log(`${bot.user.tag} has been successfully turned on!`)
-      bot.user.setActivity('.help')});
+      bot.user.setActivity('Among US')});
 bot.on("disconnect", () => console.log("An error occurred, trying to reconnect!"));
 bot.on("reconnecting", () => console.log("I am reconnecting now..."));
 bot.on("message", async msg => { // eslint-disable-line
@@ -245,4 +245,4 @@ function play(guild, song) {
     serverQueue.textChannel.send(`🎶  **|**  Start Playing: **\`${song.title}\`**`);
 }
 
-bot.login(TOKEN);
+bot.login(NzQwMzIzNDIyMTA5ODI3MTgy.XynV6g.2R5LloqA0GT0Eyj-tGzWvfLNmmE);
